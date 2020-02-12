@@ -1,0 +1,23 @@
+{
+  "name": "recruitment.tech-test.tws",
+  "version": "1.0.0",
+  "description": "Below is a fun coding task that we would like you to complete. It should be considered an opportunity to demonstrate your creativity and ability to think outside the box. The problem demonstrates the minimum required for the output.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesus-Gonzalez/recruitment.tech-test.mars-rocket.git"
+  },
+  "keywords": [
+    "technical-test",
+    "recruitment"
+  ],
+  "author": "Jesus Gonzalez Jaen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jesus-Gonzalez/recruitment.tech-test.mars-rocket/issues"
+  },
+  "homepage": "https://github.com/Jesus-Gonzalez/recruitment.tech-test.mars-rocket#readme"
+}
