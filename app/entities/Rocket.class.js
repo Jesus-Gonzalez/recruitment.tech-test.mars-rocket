@@ -5,7 +5,6 @@ const OrientationValues = Object.values(Orientation);
 
 class Rocket {
     constructor(coordinates, orientation) {
-        this.id = parseInt(Math.floor(Math.random() * 100));
         this.coordinates = coordinates;
         this.orientation = orientation;
     }

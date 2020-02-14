@@ -3,11 +3,11 @@ const fs = require('fs');
 const returnRegex = /\r/g;
 
 class InputController {
-    static read() {
+    static read(filename) {
         let data;
         
         try {
-            data = fs.readFileSync('input.dat')
+            data = fs.readFileSync(filename)
             .toString()
             .split('\n')
             .map(line => line.replace(returnRegex, ''));

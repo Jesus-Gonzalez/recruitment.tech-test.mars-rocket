@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enums Orientation should return the Orientation object 1`] = `
+Object {
+  "East": "E",
+  "North": "N",
+  "South": "S",
+  "West": "W",
+}
+`;

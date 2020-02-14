@@ -4,24 +4,21 @@ class Grid {
     constructor(x, y) {
         this.dimensions = Object.freeze({ x, y });
         this.rockets = [];
-        this.currentRocket = null;
     }
 
     addRocket(configuration) {
-        const { coordinates, orientation, commandList } = configuration;
+        const { coordinates, orientation } = configuration;
 
         const rocket = new Rocket(coordinates, orientation);
 
         this.rockets.push(rocket);
 
-        this.currentRocket = rocket;
-
-        this.processCommands(commandList);
+        return this.rockets.length - 1;
     }
 
-    processCommands(commandString) {
-        commandString.split('')
-            .forEach(code => this.currentRocket.command(code));
+    commandRocket(index, commandList) {
+        commandList.split('')
+            .forEach(code => this.rockets[index].command(code));
     }
 }
 
