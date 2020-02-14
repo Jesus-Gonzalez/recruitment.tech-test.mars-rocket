@@ -1,3 +1,3 @@
 const { AppController } = require('./controllers/App.controller');
 
-AppController.run();
+AppController.run('input.dat');
